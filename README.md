@@ -7,4 +7,5 @@ My program uses two methods - 1) Python's built-in user_agents library, and 2) W
 I created Tableau visualizations to compare the results. I then made the business case to use WURFL for its accuracy and performance at reasonable cost. Based on WURFL's output, I plotted ad volume by platform, device, and by device within platform. See _ua_analysis.pdf_ for the Tableau export. 
 
 Required packages: user_agents, wurfl-cloud and its API key
-To run the program, type the following on the command line: python ua_map.py filecache.conf
+To run the program, type the following on the command line: 
+```python ua_map.py filecache.conf```
